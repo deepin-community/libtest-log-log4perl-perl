@@ -1,0 +1,13 @@
+libtest-log-log4perl-perl (0.32-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 03:15:19 +0100
+
+libtest-log-log4perl-perl (0.32-1) unstable; urgency=medium
+
+  * Initial Release. (Closes: #877864)
+  * refreshed control and copyright
+
+ -- Dominique Dumont <dod@debian.org>  Fri, 06 Oct 2017 14:58:26 +0200

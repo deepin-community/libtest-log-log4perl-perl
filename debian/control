@@ -1,0 +1,27 @@
+Source: libtest-log-log4perl-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Dominique Dumont <dod@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: liblog-log4perl-perl,
+                     libtest-exception-perl,
+                     perl
+Standards-Version: 4.1.1
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libtest-log-log4perl-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libtest-log-log4perl-perl.git
+Homepage: https://metacpan.org/release/Test-Log-Log4perl
+
+Package: libtest-log-log4perl-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         liblog-log4perl-perl,
+         libtest-exception-perl
+Description: module to test Log::Log4perl
+ Test::Log::Log4perl module can be used to test that you're logging
+ the right thing with Log::Log4perl. It checks that your code logs what 
+ you expect and only that.
+ .
+ This module is a fork and can be used instead of Test::Log4perl
